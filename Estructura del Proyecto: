@@ -1,0 +1,14 @@
+app/
+├── app.py                # Servidor principal
+├── models.py             # Gestión de la base de datos
+├── services.py           # Lógica de conexión a servicios
+├── templates/
+│   ├── index.html        # Interfaz de usuario
+│   ├── login.html        # Página de inicio de sesión
+│   ├── dashboard.html    # Panel de control
+├── static/
+│   ├── styles.css        # Estilos
+│   ├── script.js         # JavaScript
+├── Dockerfile            # Configuración Docker
+├── requirements.txt      # Dependencias
+└── config.py             # Configuración de la aplicación
